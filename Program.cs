@@ -4,6 +4,7 @@
 // При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 string[] arrayInit = new string[4] {"hello", "2", "world", ":)"};
 string[] arrayWithLengthLessThree = new string[arrayInit.Length];
+
 void ArrayWithLengthLessThree(string[] arrayInit, string[] arrayWithLengthLessThree)
 {
     int counter = 0;
